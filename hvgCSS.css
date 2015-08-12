@@ -1,65 +1,92 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-#hr{
-	width:10em;
-	height:1em;
-	color:#000000
-	}
+/* IDs */
 
 #body{
-	background-color:#e0fbfc;
+	background-color: #ffffff;
+	right: 25vw;
+	left: 25vw;
 	}
 
 #header{
-	background-color:#253237;
-	color:#e0fbfc;
-	text-align:center;
-	padding:0.5em;
-	margin:0.5em;	
+	background-color: #E00E13;
+	color: #ffffff;
+	text-align: center;
+	padding: 0.5em;
+	margin: 0.5em;
+	border-style: solid;
+	border-color: #E00E13;
+	border-radius: 15px;
+	max-width: 98em;
+	left:0.5em;
+	right:1em;
 	}
+	
+#banner{
+	text-align: center;
+	background-color: #fd676a;
+	color: #ffffff;
+	border-style: solid;
+	border-color: #E00E13;
+	border-radius: 15px;
+	}
+
 
 #sidebar{
 	line-height: 2em;
-	background-color: #5c6b73;
+	background-color: #b30308;
 	padding:0.6em;
-	margin:0.2em;
+	margin:0.5em;
 	text-align:left;
+	border-style: solid;
+	border-color: #E00E13;
+	border-radius: 15px;
+	left:0.5em;
+	max-width:25em;
 	}
 
 #section {
 	width:60em;
 	padding:1em;
+	margin:0.5em;
 	text-align:left;
+	min-width:80em;
+	min-height:90em;
+	background-color:#c3f162;
+	border-radius: 15px;
 	}
 	
-#index {
-	border: 0.2em solid black;
-	border-radius:1em;
-	width:9em;
-	padding:0.4em
-	}
+/* Classes */
 
-#footer {
-    background-color:#253237;
-    color:#e0fbfc;
-    clear:both;
-    text-align:center;
-    padding:0.5em;
-	margin:0.5em; 
+.center{
+	margin: auto;
+    width: 70%;
 	}
 	
-a.nav:link, a.nav:visited {
+a.hvg:link, a.hvg:visited {
     display: block;
-    font-weight: bold;
     color:black;
-    background-color: #9db4c0;
     text-align: center;
     padding: 0.3em;
     text-decoration: none;
 	}
 
-a.nav:hover, a.nav:active {
-    background-color: #7E9CAC;
+a.nav:link, a.nav:visited {
+    display: block;
+    font-weight: bold;
+    color:black;
+    background-color: #fd676a;
+    text-align: center;
+    padding: 0.3em;
+    text-decoration: none;
+	border-style: solid;
+	border-color: #E00E13;
+	border-radius: 15px;
 	}
+
+a.nav:hover, a.nav:active {
+    background-color: #f23c41;
+	}
+
+
